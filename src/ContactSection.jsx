@@ -2,6 +2,7 @@
 
 function ContactSection() {
   return (
+    <div className="bg-gray-950">
     <section id="contact" className="py-24 px-4 sm:px-6 max-w-6xl mx-auto bg-gray-900">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
         Get In <span className="text-blue-500">Touch</span>
@@ -22,6 +23,7 @@ function ContactSection() {
         </div>
       </div>
     </section>
+    </div>
   )
 }
 export default ContactSection
