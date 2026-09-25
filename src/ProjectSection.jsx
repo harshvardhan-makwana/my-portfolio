@@ -4,13 +4,13 @@ export default function ProjectSection() {
   const projects = [
     {
       name: "Wanderlust - Airbnb Clone",
-      desc: "Full-stack Airbnb clone with Passport.js auth, Cloudinary image upload, Maps, CRUD listings & reviews. MVC architecture with 100% uptime via UptimeRobot.",
-      live: "https://wanderlust-eb5c.onrender.com",
-      github: "https://github.com/harshvardhan-makwana/wanderlust", 
+      desc: "Full-stack MERN Airbnb clone built with MVC architecture and REST APIs. Features JWT auth, complete CRUD for listings and reviews with authorization, and cloudinary image upload",
+      live: "https://wanderlust-mern-nine.vercel.app/",
+      github: "https://github.com/harshvardhan-makwana/wanderlust-MERN", 
     },
     {
       name: "JobBoard",
-      desc: "Full-stack MERN job portal with authentication, CRUD operations, and responsive UI. Deployed on Vercel + Render.",
+      desc: "Full-Stack MERN job portal with JWT auth, role based access (Recruiter/Seeker), complete CRUD for jobs & applications, RESTful APIs with MVC architecture. Deployed on Vercel + Render",
       live: "https://job-board-mern-inky.vercel.app/",
       github: "https://github.com/harshvardhan-makwana/job-board-mern",
     },
